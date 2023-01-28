@@ -1,12 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import axios from "axios";
-
-// Components
 import EntertainmentCardSlider from '../components/Entertainment/EntertainmentCard.Component'
 import HeroCarousel from '../components/HeroCarousel/HeroCarousel.Component'
 import PosterSlider from '../components/PosterSlider/PosterSlider.Component'
-
-// Layout Hoc
 import DefaultLayoutHoc from '../layout/Default.layout'
 
 
